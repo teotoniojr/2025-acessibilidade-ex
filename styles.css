@@ -48,8 +48,8 @@ section {
 .img-inicio {
     position: absolute;
     right: 0;
-    top: 18rem;
-    width: 45rem;
+    top: 22rem;
+    width: 25rem;
     height: auto;
 }
 
@@ -109,17 +109,14 @@ h2 {
 }
 
 #galeria {
-    background-color: #FAF4F4;
+    background-color: var(--marrom);
 
 }
 
-.fundo-galeria {
-    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
-    background-size: 180px 180px;
-}
+
 
 #contato {
-    background-image: url('img/4965007.jpg');
+    background-image: url('img/fundo.png');
     background-size: cover;
     padding: 4rem 0;
     /* Espaçamento interno para a seção de contato */
